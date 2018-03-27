@@ -1,0 +1,43 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.container {
+	background-color: rgb(250, 250, 250);
+	padding: 30px;
+	border-radius: 3px;
+	width: 1200px;
+	width: 100%;
+}
+
+.btn,
+.label {
+	margin: 10px;
+}
+
+.label {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.text-center p {
+		margin-bottom: -40px;
+	}
+
+	.label {
+		display: block;
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.label:nth-child(1) {
+    	margin-top: 10px;
+	}
+
+	.label:nth-child(3) {
+    	margin-bottom: 0;
+	}
+}
